@@ -73,17 +73,17 @@ class HomeScreen extends StatelessWidget {
                               child: Row(
                                 children: [
                                   const SizedBox(
-                                    width: 10,
+                                    width: 5,
                                   ),
                                   Text(
                                     data.id.toString(),
                                     style: MyTextStyle.buttonTextBlack,
                                   ),
                                   const SizedBox(
-                                    width: 20,
+                                    width: 10,
                                   ),
                                   SizedBox(
-                                      width: 420,
+                                      width: 340,
                                       child: Text(data.title,
                                           style: MyTextStyle.buttonTextBlack)),
                                 ],
